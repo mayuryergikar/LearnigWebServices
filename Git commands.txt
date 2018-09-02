@@ -8,7 +8,7 @@ git config --global user.name "mayur"
 git init 
 --> Initialize Git on local system.
 
-git add [filename] || -A
+git add [filename] || -A || -u
 --> Add Single file or multiple files on Local Git.
  
 git status
