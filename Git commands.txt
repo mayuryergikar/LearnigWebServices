@@ -4,8 +4,7 @@ Git Commands
 git config --global user.email "mayuryergikar@gmail.com"
 git config --global user.name "mayur"
 
-//
-git init 
+//git init 
 --> Initialize Git on local system.
 
 git add [filename] || -A || -u
