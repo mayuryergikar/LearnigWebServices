@@ -1,0 +1,48 @@
+Git Commands
+
+//Config of Local Git 
+git config --global user.email "mayuryergikar@gmail.com"
+git config --global user.name "mayur"
+
+//
+git init 
+--> Initialize Git on local system.
+
+git add [filename] || -A
+--> Add Single file or multiple files on Local Git.
+ 
+git status
+--> Check Git status like, which files are modified.
+
+
+git commit -m "message"
+--> After adding files we need to commit Git.
+
+git remote add origin reponame
+--> After adding new files to Local repo, we need add to Live repo.  
+
+git push origin master
+--> After every thing works fine on Local repo then we move to Live Git repo.
+
+git clone reponame
+--> Copy Git repo to Local repo
+
+git pull origin master 
+--> Before pushig Local repo we need to check any new changes made by other developer on 
+Live repo then we need to get it Local repo then we Push it back Live repo.
+
+git branch BRANCHNAME
+--> New repo where we work and after work done we merge repo to master
+
+git checkout BRANCHNAME
+--> Change branch
+
+git marge BRANCHNAME
+--> To merge repo 
+
+git branch
+--> Find avaliale branches.
+
+//Find commits details
+git log
+git log author ""
