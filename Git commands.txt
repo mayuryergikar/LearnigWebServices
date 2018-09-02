@@ -13,7 +13,6 @@ git add [filename] || -A || -u
 git status
 --> Check Git status like, which files are modified.
 
-
 git commit -m "message"
 --> After adding files we need to commit Git.
 
