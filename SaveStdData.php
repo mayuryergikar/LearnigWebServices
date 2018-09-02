@@ -3,8 +3,8 @@
 	include("config.php");
 	
 	$name1=$_POST["std_name"];
-	$address=$_POST["std_address"];
 	$mobile=$_POST["std_mobileno"];
+	$address=$_POST["std_address"];
 	$qualification=$_POST["std_qualification"];
 	
 		if ($db->connect_error) {
@@ -16,7 +16,7 @@
 		echo "New record created successfully";
 		} 
 		else {
-			echo "Error: " . $sql . mysql_error($db);
+			echo "Error: " . $sql . "<br>" . mysql_error($db);
 		}
 	}
 ?>
