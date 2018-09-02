@@ -16,7 +16,7 @@
 		echo "New record created successfully";
 		} 
 		else {
-			echo "Error: " . $sql . "<br>" . mysql_error($db);
+			echo "Error: " . $sql . mysql_error($db);
 		}
 	}
 ?>
